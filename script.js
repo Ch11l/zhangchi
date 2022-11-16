@@ -290,7 +290,7 @@ class World {
       this.sound = new THREE.Audio(listener);
       const audioLoader = new THREE.AudioLoader();
       audioLoader.load(
-      "http://dl.stream.qqmusic.qq.com/C400003Gdiea1ExCoO.m4a?guid=3758096456&vkey=7A559848C3DB0FDA754C7D9F7D816D81C17BEFD3F4D7359C7BBC6E532E88CAEE25299FD6B70694AA8F31A1162223CEC244DB6D118149DF09&uin=485225413&fromtag=120032",
+      "https://dl.stream.qqmusic.qq.com/C400003Gdiea1ExCoO.m4a?guid=3758096456&vkey=7A559848C3DB0FDA754C7D9F7D816D81C17BEFD3F4D7359C7BBC6E532E88CAEE25299FD6B70694AA8F31A1162223CEC244DB6D118149DF09&uin=485225413&fromtag=120032",
       buffer => {
         this.sound.setBuffer(buffer);
         this.sound.setLoop(false);
