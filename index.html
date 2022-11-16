@@ -10,7 +10,7 @@
 <canvas class="webgl"></canvas>
 <!-- LRC歌词 -->
 <audio id="auo"
-       src="https://webfs.tx.kugou.com/202211161050/47809ceb8a5d72d2622f9284166dc727/v2/e2e5f5fe677890c52799fd62d226d4b6/G141/M02/1C/01/bZQEAFuLGj2AM54EAECmYI5C2c0721.mp3"></audio>
+       src="./huahai.mp3"></audio>
 <textarea cols="30" id="lrc_content" style="display: none">
         [ti:花海]
         [ar:周杰伦]
@@ -472,7 +472,7 @@
                 this.sound = new THREE.Audio(listener);
                 const audioLoader = new THREE.AudioLoader();
                 audioLoader.load(
-                    "https://webfs.tx.kugou.com/202211161050/47809ceb8a5d72d2622f9284166dc727/v2/e2e5f5fe677890c52799fd62d226d4b6/G141/M02/1C/01/bZQEAFuLGj2AM54EAECmYI5C2c0721.mp3",
+                    "./huahai.mp3",
                     buffer => {
                         this.sound.setBuffer(buffer);
                         this.sound.setLoop(false);
